@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/create-url-table.yaml
+  - include:
+      file: db/changelog/create-users-table.yaml
+  - include:
+      file: db/changelog/create-unique-request-table.yaml
+  - include:
+      file: db/changelog/add-user.yaml
